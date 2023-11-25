@@ -12,8 +12,8 @@ const Work = () => {
             tags: ["ReactJS", "NextJS"],
             imgUrl: '/assets/work/p1.png',
             title: 'Banking Website',
-            projectLink: 'https://www.google.com',
-            codeLink: 'https://www.youtube.com',
+            projectLink: 'https://modern-react-bank-website.vercel.app/',
+            codeLink: 'https://github.com/mdhassanjsdev',
             description: 'A modern banking website frontend design',
             work_tag: 'Next JS'
         },
@@ -21,8 +21,8 @@ const Work = () => {
             tags: ["ReactJS", "NextJS"],
             imgUrl: '/assets/work/p2.png',
             title: 'metaverse',
-            projectLink: 'https://www.google.com',
-            codeLink: 'https://www.youtube.com',
+            projectLink: 'https://project-meta.netlify.app',
+            codeLink: 'https://github.com/mdhassanjsdev',
             description: 'A modern metaverse NEON design',
             work_tag: 'Next JS'
         },
@@ -30,8 +30,8 @@ const Work = () => {
             tags: ["ReactJS", "NextJS"],
             imgUrl: '/assets/work/p3.png',
             title: 'Food selling website',
-            projectLink: 'https://www.google.com',
-            codeLink: 'https://www.youtube.com',
+            projectLink: 'https://restaurent-website-66.netlify.app',
+            codeLink: 'https://github.com/mdhassanjsdev',
             description: 'Food selling website frontend',
             work_tag: 'React JS'
         },
@@ -39,8 +39,8 @@ const Work = () => {
             tags: ["ReactJS", "NextJS"],
             imgUrl: '/assets/work/p4.png',
             title: 'Modern Ecommerce Admin Panel',
-            projectLink: 'https://www.google.com',
-            codeLink: 'https://www.youtube.com',
+            projectLink: 'https://admin-dashboard-1132205.netlify.app',
+            codeLink: 'https://github.com/mdhassanjsdev',
             description: 'asdfghjdfghjkl',
             work_tag: 'React JS'
         },
@@ -48,8 +48,8 @@ const Work = () => {
             tags: ["MERN"],
             imgUrl: '/assets/work/p5.png',
             title: 'Workslee',
-            projectLink: 'https://www.google.com',
-            codeLink: 'https://www.youtube.com',
+            projectLink: 'https://workslee.com',
+            codeLink: 'https://github.com/mdhassanjsdev',
             description: 'Full Stack Pear 2 Pear working Platform',
             work_tag: 'MERN Stack'
         },
@@ -57,8 +57,8 @@ const Work = () => {
             tags: ["Application"],
             imgUrl: '/assets/work/p6.jpg',
             title: 'Quran Learning App',
-            projectLink: 'https://www.google.com',
-            codeLink: 'https://www.youtube.com',
+            projectLink: 'https://github.com/mdhassanjsdev/native-quran-app',
+            codeLink: 'https://github.com/mdhassanjsdev',
             description: 'Full Stack Quran Learing App',
             work_tag: 'React Native'
         },
@@ -66,8 +66,8 @@ const Work = () => {
             tags: ["ReactJS", "NextJS"],
             imgUrl: '/assets/work/p7.png',
             title: 'Travel Website',
-            projectLink: 'https://www.google.com',
-            codeLink: 'https://www.youtube.com',
+            projectLink: 'https://fancy-semolina-574b3c.netlify.app',
+            codeLink: 'https://github.com/mdhassanjsdev',
             description: 'Modern Travel Website',
             work_tag: 'Html & Css'
         },
@@ -75,11 +75,20 @@ const Work = () => {
             tags: ["Application"],
             imgUrl: '/assets/work/p8.jpg',
             title: 'NFT buy & sell Application',
-            projectLink: 'https://www.google.com',
-            codeLink: 'https://www.youtube.com',
+            projectLink: 'https://github.com/mdhassanjsdev/react-native-NFT-marketplace',
+            codeLink: 'https://github.com/mdhassanjsdev',
             description: 'Full stack NFT Marketplace',
             work_tag: 'React Native'
         },
+        // {
+        //     tags: ["Application"],
+        //     imgUrl: '/assets/work/p9.png',
+        //     title: 'Zeppto',
+        //     projectLink: '',
+        //     codeLink: 'https://github.com/mdhassanjsdev',
+        //     description: 'Full stack NFT Marketplace',
+        //     work_tag: 'React Native'
+        // },
     ]);
 
     const [activeFilter, setActiveFilter] = useState("All");
