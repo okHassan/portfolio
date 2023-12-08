@@ -58,17 +58,27 @@ const Skills = () => {
 
     const experience = [
         {
+            year: 2021,
+            works: [
+                {
+                    name: "Learn Technologies",
+                    company: "Self Learner",
+                    desc: "Learn Javascript, React, Next, Node, Mongo DB, Mysql"
+                },
+            ]
+        },
+        {
             year: 2022,
             works: [
                 {
                     name: "Frontend Developer",
                     company: "KS Devware",
-                    desc: "hey broyoo yoo"
+                    desc: "Working As a part-time frontend web developer"
                 },
                 {
                     name: "Full Stack Developer",
                     company: "Kasa Infotech",
-                    desc: "hey broyoo yoo 2"
+                    desc: "Working As a Senior Backend Developer. Solve lot's of bugs and problems and increase company value"
                 },
             ]
         },

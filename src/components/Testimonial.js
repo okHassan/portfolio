@@ -14,7 +14,7 @@ const Testimonial = () => {
             imgUrl: 'https://cdn.sanity.io/images/soweeiig/production/3aef687c075448750397ef0380754131032b41eb-6720x4480.jpg?rect=1588,71,3651,3923',
             name: 'Shuhash',
             company: 'voice of programmer',
-            feedback: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident maiores ratione facere quas ad deleniti sed libero perferendis repellendus repudiandae!'
+            feedback: `Kudos, Hassan! Your completion of the React and Node website showcases skillful execution, attention to client needs, and a commendable dedication to quality. It's been a pleasure working with you!`
         },
         {
             imgUrl: 'https://cdn.sanity.io/images/soweeiig/production/974ee816e624bfa7fb3fcdfd6ac46a32ba9ce49e-7730x5156.jpg?rect=4294,314,3354,3370',

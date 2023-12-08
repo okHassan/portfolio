@@ -37,18 +37,27 @@ const Work = () => {
         },
         {
             tags: ["ReactJS", "NextJS"],
+            imgUrl: '/assets/work/p10.png',
+            title: 'Money Tranfer Website',
+            projectLink: 'https://zeppto-by-hassan.netlify.app/',
+            codeLink: 'https://github.com/mdhassanjsdev',
+            description: 'A modern money transfer banking website',
+            work_tag: 'React JS'
+        },
+        {
+            tags: ["ReactJS", "NextJS"],
             imgUrl: '/assets/work/p4.png',
             title: 'Modern Ecommerce Admin Panel',
             projectLink: 'https://admin-dashboard-1132205.netlify.app',
             codeLink: 'https://github.com/mdhassanjsdev',
-            description: 'asdfghjdfghjkl',
+            description: 'A complete E-commerce Admin panel',
             work_tag: 'React JS'
         },
         {
             tags: ["MERN"],
             imgUrl: '/assets/work/p5.png',
             title: 'Workslee',
-            projectLink: 'https://workslee.com',
+            projectLink: 'https://workslee.vercel.app',
             codeLink: 'https://github.com/mdhassanjsdev',
             description: 'Full Stack Pear 2 Pear working Platform',
             work_tag: 'MERN Stack'
