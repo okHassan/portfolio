@@ -98,7 +98,8 @@
 
 @media screen and (max-width: 900px) {
     .app__skills-exp {
-        margin-top: 2rem;
+        margin-top: 3rem !important;
+        margin:  auto;
     }
 }
 

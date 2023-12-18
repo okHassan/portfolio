@@ -54,6 +54,12 @@
     justify-content: flex-start !important;
     align-items: flex-start !important;
 }
+
+@media screen and (max-width: 768px) {
+    .app__about-data {
+        margin: 0rem !important;
+    }
+}
 .app__about-data h2 {
     margin-bottom: 1rem;
     font-size: 1.5rem;
