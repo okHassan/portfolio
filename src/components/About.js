@@ -45,7 +45,7 @@ const About = () => {
                 <div className="app__about-img app__flex">
                     <div className="app__flex">
                         <img
-                            src="/assets/.png"
+                            src="/assets/me.png"
                             alt="Image coming soon"
                         />
                     </div>
