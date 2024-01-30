@@ -3,6 +3,7 @@ import AppWrap from "../utils/AppWrap";
 import MotionWrap from "../utils/MotionWrap";
 
 import '../styles/Contact.css'
+import axios from "axios";
 
 const Contact = () => {
     const [formData, setFormData] = useState({
@@ -24,8 +25,26 @@ const Contact = () => {
         });
     };
 
+    const url = 'https://mail-send-rho.vercel.app';
+
     const handleSubmit = (e) => {
         e.preventDefault()
+
+        axios
+            .post(`${url}/mail`, formData)
+            .then((res) => alert(res.data))
+            .catch((err) => alert(err.data))
+
+
+
+        setFormData(
+            {
+                name: "",
+                email: "",
+                subject: "",
+                message: "",
+            }
+        )
     }
 
     return (
@@ -38,7 +57,7 @@ const Contact = () => {
                 <div className="app__contact-card">
                     <img src="/assets/email.png" alt="email" />
                     <a href="mailto:coder.hassan.ahmed@gmail.com" className="p-text">
-                    coder.hassan.ahmed@gmail.com
+                        coder.hassan.ahmed@gmail.com
                     </a>
                 </div>
                 <div className="app__contact-card">
