@@ -8,7 +8,7 @@ const SocialMedia = () => {
         <div className="app__social">
             <div>
                 <a
-                    href="https://www.linkedin.com/in/"
+                    href="https://www.linkedin.com/in/coderhassan"
                     target="_blank"
                     rel="noreferrer"
                     className="app__flex"
@@ -18,7 +18,7 @@ const SocialMedia = () => {
             </div>
             <div>
                 <a
-                    href="https://www.facebook.com/"
+                    href="https://www.facebook.com/coderhassan"
                     target="_blank"
                     rel="noreferrer"
                     className="app__flex"
