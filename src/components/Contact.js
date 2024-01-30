@@ -1,6 +1,8 @@
 import React, { useState } from "react";
 import AppWrap from "../utils/AppWrap";
 import MotionWrap from "../utils/MotionWrap";
+import emailjs from '@emailjs/browser';
+
 
 import '../styles/Contact.css'
 import axios from "axios";
@@ -25,17 +27,24 @@ const Contact = () => {
         });
     };
 
-    const url = 'https://mail-send-rho.vercel.app';
 
     const handleSubmit = (e) => {
         e.preventDefault()
 
-        axios
-            .post(`${url}/mail`, formData)
-            .then((res) => alert(res.data))
-            .catch((err) => alert(err.data))
-
-
+        emailjs
+            .send(
+                'service_h9slcyg',
+                'template_oarulvv',
+                {
+                    from_name: formData.name,
+                    to_name: "Hassan Ahmed",
+                    from_email: formData.email,
+                    to_email: "hassan1132005@gmail.com",
+                    message: formData.message,
+                    from_subject: formData.subject
+                },
+                'IW6_6siGryFqzCDac'
+            )
 
         setFormData(
             {
