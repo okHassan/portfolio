@@ -45,6 +45,11 @@ const Contact = () => {
                 },
                 'IW6_6siGryFqzCDac'
             )
+            .then((result) => {
+                alert('send successfully');
+            }, (error) => {
+                console.log('server busy');
+            });
 
         setFormData(
             {
