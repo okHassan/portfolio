@@ -86,7 +86,7 @@ export default function About() {
                     of thoughtful design.
                 </Paragraph>
                 <Paragraph className=" mt-4">
-                    Thank you for being here, and Let's collaborate to take your projects to new heights.
+                    Thank you for being here, and Lets collaborate to take your projects to new heights.
                 </Paragraph>
             </div>
         </div>
