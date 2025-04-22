@@ -36,7 +36,7 @@ export default function Home() {
                 <Highlight>0 to 1.</Highlight> I lead teams effectively, ensuring an environment where people can do their best work.<br/><br/> Currently, I work mostly with TypeScript, React, Node.js, and Others Technologies. I have over 3 years of experience in working with different clients.
             </Paragraph>
             <div className="mt-5">
-            <Badge href="https://docs.google.com/document/d/1bksxoTpKARPIpjYf55QbyNWb0k_ZePIfUIQ0h2bTV1E/edit?usp=sharing" text="Read Resume" />
+            <Badge href="https://docs.google.com/document/d/1bksxoTpKARPIpjYf55QbyNWb0k_ZePIfUIQ0h2bTV1E/edit?usp=sharing" text="Hire Me" />
             </div>
             <Heading
                 as="h2"
